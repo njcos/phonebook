@@ -69,7 +69,7 @@ button:focus-visible {
 
 .notification {
   color: Green;
-  background: lightgrey;s
+  background: lightgrey;
   font-size: 20px;
   border-style: none;
   border-radius: 3px;
@@ -82,7 +82,7 @@ button:focus-visible {
 
 .errorMessage {
   color: red;
-  background: lightgrey;s
+  background: lightgrey;
   font-size: 20px;
   border-style: none;
   border-radius: 3px;
