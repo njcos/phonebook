@@ -1,7 +1,7 @@
-const express = require('express')
-const morgan = require('morgan')
-const cors = require('cors')
-const process = require('process');
+import express from 'express';
+import morgan from 'morgan';
+import cors from 'cors';
+import process from 'process';
 
 
 
