@@ -1,18 +1,20 @@
-import express from 'express'
-import morgan from 'morgan'
-import cors from 'cors'
+const express = require('express')
+const morgan = require('morgan')
+const cors = require('cors')
+const process = require('process');
 
 
 
 
 const app = express()
 
-const port = process.env.PORT || 3001
 
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
+
 app.use(express.json())
 app.use(cors())
 
